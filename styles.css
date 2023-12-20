@@ -20,7 +20,7 @@ body{
 #navbar{
     margin: 1em auto;
     width: 80%;
-    height: 10vh;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,8 +134,8 @@ body{
     color: white;
 }
 
-section{
-    height: 80vh;
+.section-container{
+    height: auto;
     width: 100%;
     background-color: #fff;
     border: 2px solid black;
@@ -144,7 +144,7 @@ section{
 .section-cover{
    
     width:90%;
-    height: 80vh;
+    max-height: auto;
     background-color: #fff;
     margin: auto;
     padding: 20px;
@@ -162,16 +162,15 @@ section{
 }
 
 footer{
-    width: 100%;
-    height: 20vh;
     align-items: center;
     background-color:lightgray;
     padding-bottom: 10px;
 }
 
 .footer-box{
+    
     width: auto;
-    height: 100%;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,3 +186,6 @@ footer{
     align-items: center;
 gap:40px;
 } 
+#read{
+    max-height: auto;
+}
